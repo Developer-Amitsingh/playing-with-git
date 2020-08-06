@@ -11,5 +11,9 @@ app.get("/about",function(req,res){
 	res.render("about.ejs");
 });
 
+app.get("/contact",function(req,res){
+	res.render("contact.ejs");
+});
+
 
 app.listen(process.env.PORT,process.env.IP);
